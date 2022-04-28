@@ -1,15 +1,13 @@
 package basePage;
 
 import lib.SDCheckout;
-import org.openqa.selenium.By;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import lib.SDLogin;
 import resources.browserConfig;
 
 import java.io.IOException;
 
-public class Validate_Product_Checkout extends browserConfig {
+public class Validate_Product_Checkout_Test extends browserConfig {
 
     @Test
     public void validate_Product_Checkout_1() throws IOException, InterruptedException {
